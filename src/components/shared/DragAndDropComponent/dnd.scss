@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    .listStyle {
+      height: 400px;
+      background-color: white !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1px 0;
+      border: 1px solid green !important;
+      position: relative;
+      .dragHandle {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%)
+      }
+    }
+  }
+  

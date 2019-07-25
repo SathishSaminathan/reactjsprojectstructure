@@ -1,0 +1,8 @@
+.menuContainer {
+  height: 150px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .menuContainer .nameArea .userName {
+    font-weight: bold; }

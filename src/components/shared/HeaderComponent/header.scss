@@ -1,0 +1,21 @@
+.myProjects {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  // background-color: red
+  &::before {
+    content: "";
+    height: 5px;
+    width: 0%;
+    background-color: #2da01c;
+    position: absolute;
+    transition: all .3s ease-in-out; 
+    bottom: 0;
+    left: 0;
+  }
+  &:hover {
+    &::before {
+      width: 100%;
+    }
+  }
+}

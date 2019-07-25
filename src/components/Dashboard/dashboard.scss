@@ -1,0 +1,22 @@
+.sample {
+  .anticon {
+    display: none;
+  }
+  .ant-modal-confirm-title {
+    text-align: center;
+    font-weight: 600;
+  }
+  .ant-modal-confirm-content {
+    margin-left: 0% !important;
+  }
+  .ant-table-thead {
+    display: none;
+  }
+}
+.upload {
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}

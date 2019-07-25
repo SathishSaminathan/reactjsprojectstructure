@@ -1,0 +1,31 @@
+.pageContainer {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+  .pageContainer .loaderContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .pageContainer .loaderContainer .image {
+      width: 100px;
+      height: 100px;
+      animation: loadingAnimation 1s infinite linear; }
+      .pageContainer .loaderContainer .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; }
+
+@keyframes loadingAnimation {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }

@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: "Roboto", sans-serif !important;
+  font-family: "Varela Round" !important;
+  height: 100%;
+}
+
+.links{
+  height: 100%;
+}
+
+.links:hover{
+  transition: color .5s ease-in-out;
+  color: #2da01c !important;
+  cursor: pointer;
+}
+
+
+/* Ant design custom styles starts here*/
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  /* background-color: #2d3848 !important; */
+  color: black !important;
+}
+.ant-menu-item-selected {
+  font-weight: bold !important;
+  font-size: 30px;
+  border-left: 3px solid black;
+}
+.ant-menu-item-selected > span {
+  color: black;
+}
+.ant-menu-item {
+  margin: 0 !important;
+  height: 60px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  background-color: #eceef1;
+}
+
+.ant-layout-sider-children {
+  background-color: #eceef1;
+  margin: 0;
+}
+
+.location-modal .ant-modal-body{
+  padding: 0 !important;
+}
+.location-modal .ant-modal-close-x{
+  display: none;
+}
+.ant-table-column-title {
+  font-weight: 600
+}
+.primary-font-color {
+  color: #2da01c !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Ant design custom styles ends here*/
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */

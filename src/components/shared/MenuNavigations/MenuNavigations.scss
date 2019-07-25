@@ -1,0 +1,15 @@
+.menuContainer {
+  height: 150px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .nameArea {
+    .userName {
+      font-weight: bold;
+    }
+    .projectName {
+    //   font-style: italic;
+    }
+  }
+}

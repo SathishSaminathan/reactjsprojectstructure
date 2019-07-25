@@ -1,0 +1,36 @@
+.card {
+  border: 1px solid #e3e3e3;
+  text-align: left;
+  max-height: 100px;
+  min-height: 100px;
+  overflow: hidden;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-top: 10px; }
+  .card .vertical-center {
+    height: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .card img {
+    height: 60px;
+    width: 60px;
+    margin-top: 6px; }
+
+.deleteCard {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  font-size: 12px; }
+
+.pl-15 {
+  padding-left: 15px; }
+
+.font-600 {
+  font-weight: 600; }
+
+.text-ellipsis {
+  height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }

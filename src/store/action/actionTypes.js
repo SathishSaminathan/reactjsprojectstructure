@@ -1,0 +1,6 @@
+export const SET_USER = "SET_USER";
+export const REMOVE_USER = "REMOVE_USER";
+export const SET_ACCESS_TOKEN = "SET_ACCESS_TOKEN";
+export const SET_ACTIVE_PROJECT = "SET_ACTIVE_PROJECT";
+export const SET_ACTIVE_MENU = "SET_ACTIVE_MENU";
+export const SET_FONTSIZE = "SET_FONTSIZE";
